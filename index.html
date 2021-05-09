@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Presentation</title>
+
+  <!--  Styles  -->
+  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Montserrat+Alternates:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div id="bannerNavbar">
+    <header id="headerContainer">
+      <img id="animLogo" src="img_animatedLogo.gif" alt="Paola Maddaluno animated logo">
+      <div id="htContainer">
+        <h1 id="headerTitle">Game presentation</h1>
+        <p id="hSubtitle" class="hsTitle">introducing myself at DFT</p>
+      </div>
+      
+    </header>
+    <nav id="navbar">
+      <ul id="navbar-list">
+        <li class="list"><a id="home" class="anchor-text" href="#">home</a></li>
+        <li class="list"><a id="play" class="anchor-text" href="#emptyDiv">play</a></li>
+        <li class="list"><a id="contact" class="anchor-text" href="#Kit">contacts</a></li>
+      </ul>
+    </nav>
+  </div>
+
+
+
+      <section id="dy">
+            <div>
+                <h2 class="dyTitle">The journey that brought me to DFT.</h2>
+                <p>When I knew that I had to do a little introduction during the cascade meeting, I thought it could be fun to create this page for my DFT colleagues. 
+                </br>
+                      I have a diverse background in Languages, Cultural Exchanges, Tourism and Marketing. All of my previous experiences were steps toward coding.</p>
+                <p>I am a self-taught developer, and I am grateful that charities like <a class="hotword" href="https://codebar.io/"target="_blank">codebar London</a> exists and that the developers comminities is so welcoming and supportive. </p>
+                </br>
+                  I got the priviledge to be a student at <a class="hotword" href="https://getfutureproof.co.uk/"target="_blank">Futureproof Academy</a> Wieland Cohort. This bootcamp was a concrete opportunity for me to "jump" into my new career as developer. 
+                  I am thrilled to work at DfT and be part of its Digital Project Team and eager to contribute with good quality code and continue my learning journey.</p>
+                <p>If 5 years ago, when I arrived in London, someone whould tell me that I was going to be a junior developer work for the uk government, I would think it was a prank! 
+                      Well what I learned about Britain is this ia a country of meritocracy and opportunities. An I am proud to work in an environement were diversity is considered a "superpower"</p>
+                <p>Here below a game section to get to know.</p>
+                <h2 class="dyTitle">Funny fact</h2>
+                <p> When I told my parents that I was going to work for the department for transport, they told me that I will be the third generation in my family to have a job related with transports. 
+                  My grandfather and my father worked in a factory that made trains. 
+                </p>
+            </div>
+      </section> 
+  <main>
+    <div id="emptyDiv" style="height: 200px; padding: 2em;">
+        <img style="height: 200px; width: 100%; margin: auto; object-fit: contain;" src="dots.png" alt="decoration images three dots"></div>
+
+    <!-- game section -->
+    <div id="gameContainer">
+      <h2 id="gameTitle">Play with me @ Two truths and One lie</h2>
+      <div id="instruction">
+       
+
+
+        <p>Let's getting to know playing together. 
+          The rule are very easy each time 3 sentences will appear only one of them is false.
+          Can you to find it?
+        </br>
+          Once you're ready : </p>
+          <ol style="padding: 1em">
+            <li>Click on the button play to start the game and see the three sentences.</li>
+            <li>Select the sentence to discover if you won.</li>
+            <li>To start the game again, please click on reset.</li>
+          </ol> 
+
+      </div>
+
+      <div id="gameButtons">
+        <!--   play button  show a list of 3 sentences -->
+        <button id="btnPlay" class="btnhover">Play</button>
+        <!--   reset button  display random sentences -->
+        <button id="btnReset" class="btnhover">Reset</button>
+        <!--   quit button  change visibilty to hidden -->
+        <button id="btnQuit" class="btnhover">Quit</button>
+      </div>
+      <div id="gameSentences">
+        <div id="inputBox">
+          <p>Take a guess:</p>
+          <button id="one" class="guess btnhover" data-answer="1"></button>
+          <button id="two" class="guess btnhover" data-answer="2"></button>
+          <button id="three" class="guess btnhover" data-answer="3"></button>
+        </div>
+        <!-- end game sentences -->
+      </div>
+      <div id="winnerContainer" class="result-display">
+        <img id="winnerImg" class="gameImg" src="trophy.png" alt="winner trophy" />
+        <p class="result">congratulations you win, this was the lie!</p>
+      </div>
+      <div id="loserContainer" class="result-display">
+        <img id="loserImg" class="gameImg" src="sad.png" alt="sad face from iconixar" />
+        <p class="result">"Nope, this is the truth! Try again"</p>
+      </div>
+
+      <!-- end game container -->
+    </div>
+
+
+    <div id="decoContainer">
+      <img class="threeDots delay1" src="dots.png" alt="decoration images three dots">
+      <img class="threeDots delay2" src="dots.png" alt="decoration images three dots">
+      <img class="threeDots delay3" src="dots.png" alt="decoration images three dots">
+    </div>
+    <article id="articleContainer">
+      <img id="portraitPic" src="PortraitPaolaM.png" alt="Paola Maddaluno">
+      <div id="introContainer">
+        <h2 id="intro-title">More about...</h2>
+        <p class="subtitle">Paola as junior fullstack developer</p>
+        <!-- presentation -->
+        <p>Sometimes people work for years before asking themselves if they are truly happy about their life and
+          achievements.
+          In the tourism industry, the high people turn-over and long working hours can lead to easily lose connection
+          with ourselves, our real passions or our goals in life.</p>
+        <p>After almost 20 years, working in tourism and student's exchange programs, I felt lost and was missing being creative.
+          So when the opportunity of a career change arose in October 2018, I took it! </p>
+
+        <p>I got my first job as a marketing assistant for an e-commerce company. The first thing I had to learn was to set my
+          thunderbird signature in HTML and CSS. This is where my journey with coding started.</p>
+        <p>I signed up for the first workshop in town and started self-teaching myself. I enjoyed the creativity and the
+          constant use of your mind to find a solution and enjoyed the never-ending learning process.</br>
+
+          During my journey, I discovered opportunities for learning to code in a safer environment where
+          underrepresented groups, career changer and mature folks are considered a plus, and every one is encouraged to
+          share their knowledge.</p>
+        <p>This made me confident, and because I am not afraid of changes or of restarting my life in a new country; in June
+          2019, I decided to take a break from work and I invested all my time, energies and savings to pursue my
+          life project and I became a web developer. </p>
+
+          <p>In October 2018, I joined the first coding workshop at <a class="hotword" href="https://codebar.io/" target="_blank">codebar London</a> since then I never stopped coding.
+            This charity has the goal is to enable minority group members to learn programming in a safe and collaborative environment and expand their career opportunities. 
+            To achieve this we (as I am now an organizer of West London chapter) run free regular workshops, regular one-off events and try to create opportunities for our students making technology and coding more accessible.
+            I will be pleased to answer all the questions you have on this topic, so feel free to ask.</p>
+          <p>
+            During pandemic another group helped me to keep motivated, I joined Ladies of Code London in particular the "get on with it!" event. We virtually met on Sundays and sometimes even during the week 
+            to work on our project that could be tech related or not.  
+            I create my portfolio and worked to get the certification as Responsivr Web Designer. I found in these communities the right support to achieve my goal and I am determined to contribute to their growth.</p>
+            
+            <p>In October 2020, an amazing opportunity arose and I joined <a class="hotword" href="https://www.youtube.com/watch?v=J8xyl6-TnLA" target="_blank">Futureproof Academy Wieland Cohort.</a>
+                I feel honoured to be part of this extraordinary learning process where I could refine and enhance my knowledge, previous knowledge, 
+                while learning new programming languages and new skills such as RESTful API, TDD, version control, agile and more.
+                This experience broadened my understanding of the tech industry. I now have a solid understanding of cybersecurity, data science and DevOps. 
+            </br> </p>
+      </div>
+    </article>
+
+
+   <div id="Kit">
+      <h2>Keep in Touch</h2>
+      <a href="mailto:paola.madd@dft.gov.uk"> <i class="far fa-envelope social"></i></a>
+      <a href="https://www.linkedin.com/in/paola-m-0bb05795/" target="_blank"> <i
+          class="fab fa-linkedin social"></i></a>
+      <a href="https://twitter.com/PDM51893711" target="_blank"> <i class="fab fa-twitter social"></i></a>
+      <a href="https://github.com/PaolaDMadd" target="_blank"><i class="fab fa-github social"></i> </a>
+    </div>
+
+
+  </main>
+  <footer id="footer">
+    <p id="footerText">created by | Paola Maddaluno | 2021</p>
+    <p class="credits">Credits: Icon sad face made by <a class="credits" href="https://www.flaticon.com/authors/iconixar" title="iconixar">iconixar</a> from <a class="credits" href="https://www.flaticon.com/" title="Flaticon">
+      Flaticon.</a></p>
+  </footer>
+  <!-- Scripts -->
+  <script src="scripts/index.js"></script>
+  <!-- icons cdn -->
+  <script src="https://kit.fontawesome.com/3bb5add445.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

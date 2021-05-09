@@ -2,6 +2,7 @@
 This is an introduction to my team and department, I choose to build a game in pure vanilla JavaSript and for animation I used pure CSS.
 I hope you enjoy it.
 
+You can visit the [web version](https://paoladmadd-dft.github.io/DfT-game/)
 
 
 # MIT License
